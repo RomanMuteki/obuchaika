@@ -11,5 +11,7 @@ namespace IBusko {
     const MenuItem* study_substract(const MenuItem* current);
     const MenuItem* study_multiply(const MenuItem* current);
     const MenuItem* study_divide(const MenuItem* current);
+    const MenuItem* study_calculus_diff(const MenuItem* current);
+    const MenuItem* study_calculus_integral(const MenuItem* current);
     const MenuItem* study_go_back(const MenuItem* current);
 }
